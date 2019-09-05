@@ -6,7 +6,7 @@ myProduct??= Product();
 
 //The old way
 List<Product> productList=List<Product>.from(this.myProducts);
-productList.add(Product);
+productList.add(Product());
 return productList;
 
 //Easier way
